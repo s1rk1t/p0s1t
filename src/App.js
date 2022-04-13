@@ -6,13 +6,13 @@ import Container from './Components/container/Container';
 
 function App() {
   return (
-    <div className="App">
+    
      <Container>
        <Header />
        <Body />
        <Footer />
      </Container> 
-    </div>
+    
   );
 }
 

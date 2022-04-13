@@ -1,8 +1,38 @@
 .login {
+  margin-left: 20px;
 }
 
-.userNameInput {
+.usernameInput {
+  width: 20rem;
+  height: 3rem;
+  border-radius: 5px;
+  border: 1px solid #06d6a0;
+  font: inherit;
+  padding-left: 0.5rem;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  background-color: #1b9aaa;
+  color: #fff;
+}
+
+.usernameInput::placeholder {
+  color: #bbc2ca;
+  text-align: left;
 }
 
 .passwordInput {
+  width: 20rem;
+  height: 3rem;
+  border-radius: 5px;
+  border: 1px solid #06d6a0;
+  font: inherit;
+  padding-left: 0.5rem;
+  margin-bottom: 10px;
+  background-color: #1b9aaa;
+  color: #fff;
+}
+
+.passwordInput::placeholder {
+  color: #bbc2ca;
+  text-align: left;
 }
